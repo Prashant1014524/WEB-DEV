@@ -1,0 +1,43 @@
+*{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center; /*it will align the element in the y axixs */
+    
+    justify-content: center;/* it will center the elements according to the x axis*/
+    justify-content: space-evenly;
+}
+
+#child1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+
+}
+
+#child2{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+
+}
+
+#child3{
+    width: 30px;
+    height: 30px;
+    background-color:darkblue;
+
+}
+
+#child4{
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+
+}

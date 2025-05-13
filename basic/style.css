@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+/* h1{
+    color: yellow;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color: red;
+    background-color: lightblue;
+} */
+/* 
+#box{
+    width: 200px;
+    height: 200px;
+    background-color:blue ; */
+    /* margin-left: 50px;
+    margin-top: 100px;
+    padding-top: 100px;
+    padding-left: 10px; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} */
+
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    align-items: center; /*it will align the element in the y axixs */
+    
+    justify-content: center;
+}
+
+#child1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+
+}
+
+#child2{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+
+}
+
+#child3{
+    width: 30px;
+    height: 30px;
+    background-color:darkblue;
+
+}
+
+#child4{
+    width: 30px;
+    height: 30px;
+    background-color: salmon;
+
+}
+
+
